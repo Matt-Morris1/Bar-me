@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9147B5D284C633900194841 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD614A28209BE30043AC85 /* BarViewController.swift */; };
+		C9147B5E284C633B00194841 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD61512826FBE10043AC85 /* PhotoViewController.swift */; };
+		C9147B5F284C637700194841 /* FetchBarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9147B5B284C5D9C00194841 /* FetchBarData.swift */; };
+		C9147B60284C637D00194841 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9147B59284C2F7200194841 /* Bar.swift */; };
+		C9147B61284C638200194841 /* BarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD614E28232D350043AC85 /* BarCollectionViewCell.swift */; };
+		C9147B62284C638700194841 /* Bars.swift in Sources */ = {isa = PBXBuildFile; fileRef = C964A2CD2845569000FBBFC0 /* Bars.swift */; };
+		C91FB271281A1DE600074EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91FB270281A1DE600074EC1 /* AppDelegate.swift */; };
+		C91FB273281A1DE600074EC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91FB272281A1DE600074EC1 /* SceneDelegate.swift */; };
+		C91FB275281A1DE600074EC1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91FB274281A1DE600074EC1 /* MapViewController.swift */; };
+		C91FB278281A1DE600074EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91FB276281A1DE600074EC1 /* Main.storyboard */; };
+		C91FB27A281A1DE800074EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91FB279281A1DE800074EC1 /* Assets.xcassets */; };
+		C91FB27D281A1DE800074EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91FB27B281A1DE800074EC1 /* LaunchScreen.storyboard */; };
+		C956A1CA2857BB140054ADB1 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C956A1C92857BB140054ADB1 /* CustomAnnotationView.swift */; };
+		C956A1CC285817160054ADB1 /* barAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C956A1CB285817160054ADB1 /* barAnnotationView.swift */; };
+		C96BA92728668273007A7705 /* BarListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BA92628668273007A7705 /* BarListTableViewController.swift */; };
+		C96BA9292866ADF4007A7705 /* BarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96BA9282866ADF4007A7705 /* BarTableViewCell.swift */; };
+		C9AD6147282096600043AC85 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AD6146282096600043AC85 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C975DC5E2835A39900D9E15E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9147B59284C2F7200194841 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		C9147B5B284C5D9C00194841 /* FetchBarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchBarData.swift; sourceTree = "<group>"; };
+		C91FB26D281A1DE600074EC1 /* NightLife01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightLife01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91FB270281A1DE600074EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C91FB272281A1DE600074EC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C91FB274281A1DE600074EC1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C91FB277281A1DE600074EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C91FB279281A1DE800074EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C91FB27C281A1DE800074EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C91FB27E281A1DE800074EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C956A1C92857BB140054ADB1 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		C956A1CB285817160054ADB1 /* barAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barAnnotationView.swift; sourceTree = "<group>"; };
+		C964A2CD2845569000FBBFC0 /* Bars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bars.swift; sourceTree = "<group>"; };
+		C96BA92628668273007A7705 /* BarListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarListTableViewController.swift; sourceTree = "<group>"; };
+		C96BA9282866ADF4007A7705 /* BarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTableViewCell.swift; sourceTree = "<group>"; };
+		C9AD6146282096600043AC85 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C9AD614A28209BE30043AC85 /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
+		C9AD614E28232D350043AC85 /* BarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9AD61512826FBE10043AC85 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C91FB26A281A1DE600074EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AD6147282096600043AC85 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C91FB264281A1DE600074EC1 = {
+			isa = PBXGroup;
+			children = (
+				C91FB26F281A1DE600074EC1 /* MapApp */,
+				C91FB26E281A1DE600074EC1 /* Products */,
+				C9AD6145282096600043AC85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C91FB26E281A1DE600074EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C91FB26D281A1DE600074EC1 /* NightLife01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C91FB26F281A1DE600074EC1 /* MapApp */ = {
+			isa = PBXGroup;
+			children = (
+				C91FB270281A1DE600074EC1 /* AppDelegate.swift */,
+				C91FB272281A1DE600074EC1 /* SceneDelegate.swift */,
+				C9AD614828209B930043AC85 /* Views */,
+				C9AD614928209BA30043AC85 /* Models */,
+				C975DC692835DC0F00D9E15E /* ViewModels */,
+				C91FB276281A1DE600074EC1 /* Main.storyboard */,
+				C91FB279281A1DE800074EC1 /* Assets.xcassets */,
+				C91FB27B281A1DE800074EC1 /* LaunchScreen.storyboard */,
+				C91FB27E281A1DE800074EC1 /* Info.plist */,
+			);
+			path = MapApp;
+			sourceTree = "<group>";
+		};
+		C975DC692835DC0F00D9E15E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C956A1CB285817160054ADB1 /* barAnnotationView.swift */,
+				C956A1C92857BB140054ADB1 /* CustomAnnotationView.swift */,
+				C9AD614E28232D350043AC85 /* BarCollectionViewCell.swift */,
+				C9147B5B284C5D9C00194841 /* FetchBarData.swift */,
+				C96BA9282866ADF4007A7705 /* BarTableViewCell.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C9AD6145282096600043AC85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9AD6146282096600043AC85 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9AD614828209B930043AC85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C91FB274281A1DE600074EC1 /* MapViewController.swift */,
+				C9AD614A28209BE30043AC85 /* BarViewController.swift */,
+				C9AD61512826FBE10043AC85 /* PhotoViewController.swift */,
+				C96BA92628668273007A7705 /* BarListTableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C9AD614928209BA30043AC85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C964A2CD2845569000FBBFC0 /* Bars.swift */,
+				C9147B59284C2F7200194841 /* Bar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C91FB26C281A1DE600074EC1 /* NightLife01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91FB281281A1DE800074EC1 /* Build configuration list for PBXNativeTarget "NightLife01" */;
+			buildPhases = (
+				C91FB269281A1DE600074EC1 /* Sources */,
+				C91FB26A281A1DE600074EC1 /* Frameworks */,
+				C91FB26B281A1DE600074EC1 /* Resources */,
+				C975DC5E2835A39900D9E15E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NightLife01;
+			productName = MapApp;
+			productReference = C91FB26D281A1DE600074EC1 /* NightLife01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C91FB265281A1DE600074EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C91FB26C281A1DE600074EC1 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C91FB268281A1DE600074EC1 /* Build configuration list for PBXProject "NightLife01" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C91FB264281A1DE600074EC1;
+			productRefGroup = C91FB26E281A1DE600074EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C91FB26C281A1DE600074EC1 /* NightLife01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C91FB26B281A1DE600074EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91FB27D281A1DE800074EC1 /* LaunchScreen.storyboard in Resources */,
+				C91FB27A281A1DE800074EC1 /* Assets.xcassets in Resources */,
+				C91FB278281A1DE600074EC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C91FB269281A1DE600074EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91FB275281A1DE600074EC1 /* MapViewController.swift in Sources */,
+				C91FB271281A1DE600074EC1 /* AppDelegate.swift in Sources */,
+				C9147B61284C638200194841 /* BarCollectionViewCell.swift in Sources */,
+				C9147B5D284C633900194841 /* BarViewController.swift in Sources */,
+				C91FB273281A1DE600074EC1 /* SceneDelegate.swift in Sources */,
+				C96BA9292866ADF4007A7705 /* BarTableViewCell.swift in Sources */,
+				C956A1CC285817160054ADB1 /* barAnnotationView.swift in Sources */,
+				C9147B5F284C637700194841 /* FetchBarData.swift in Sources */,
+				C956A1CA2857BB140054ADB1 /* CustomAnnotationView.swift in Sources */,
+				C9147B5E284C633B00194841 /* PhotoViewController.swift in Sources */,
+				C9147B62284C638700194841 /* Bars.swift in Sources */,
+				C96BA92728668273007A7705 /* BarListTableViewController.swift in Sources */,
+				C9147B60284C637D00194841 /* Bar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C91FB276281A1DE600074EC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91FB277281A1DE600074EC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C91FB27B281A1DE800074EC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91FB27C281A1DE800074EC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C91FB27F281A1DE800074EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C91FB280281A1DE800074EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C91FB282281A1DE800074EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3665C8ZVRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bar Me!";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to show the nearest bars to you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show the nearest bars to you";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Example.NightLife01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C91FB283281A1DE800074EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3665C8ZVRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bar Me!";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location to show the nearest bars to you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show the nearest bars to you";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Example.NightLife01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C91FB268281A1DE600074EC1 /* Build configuration list for PBXProject "NightLife01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91FB27F281A1DE800074EC1 /* Debug */,
+				C91FB280281A1DE800074EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91FB281281A1DE800074EC1 /* Build configuration list for PBXNativeTarget "NightLife01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91FB282281A1DE800074EC1 /* Debug */,
+				C91FB283281A1DE800074EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C91FB265281A1DE600074EC1 /* Project object */;
+}
